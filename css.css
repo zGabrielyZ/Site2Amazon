@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 150%;
+}
+
+div.tudo{
+    height: 100%;
+    width: 100%;
+    background-color: #EAEDED;
+    display: flex;
+}
+
+button{
+    cursor: pointer;
+}
+
+ header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #0F1111;
+}
+
+
+header div.search img{
+  width: 150px;
+  position: relative;
+  right: 60%;
+  bottom: 65%
+    
+    
+}
+
+header div.search{
+    
+    background-image: url(../Amazon/amazon\ logo.png);
+    background-size: 125px;
+    background-repeat: no-repeat;
+    background-position: 15px 7.5px;
+    position: relative;
+    height: 100%;
+    width: calc(100%);
+    margin:  auto ;
+    text-align: center;
+    /* background-color: aquamarine; */
+    
+}
+header div.search input[type=text]{
+   /* margin-top: 10px; */
+   border: 0;
+   /* border-radius: 5px; */
+   width: calc(100% - 700px);
+   height: calc(100% - 40%);
+   line-height: 100%;
+   padding-left: 10px;
+   font-size: 14px;
+   position: relative;
+   top: 15px;
+}
+header div.search button.button1{
+    top: 14px;
+    border-radius: 1px;
+    border: 0;
+    width: 70px;
+    height: calc(100% - 40%);
+    position: relative;
+    left: 4px;
+    bottom: 1px;
+}
+header div.search button.button2{
+    top: 14px;
+    background-color: #f8b45b;
+    border-radius: 1px;
+    border: 0;
+    width: 50px;
+    height: calc(100% - 40%);
+    position: relative;
+    right: 4px;
+    bottom: 1px;
+    
+      /* Para colcar lupa */
+
+    /* color: transparent; */
+}
+header div.search button.button1:hover{
+    background-color: #ccc;
+}
+header div.search button.button2:hover{
+    background-color: #fc9611;
+}
+
+header footer{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background-color: #232f3e;
+    text-align: center;
+}
+header footer button{
+    margin-left: 75px;
+    border: 0;
+    height: 100%;
+    width: auto;
+    background-color: #232f3e;
+    color: white;
+    font-weight: bold;
+}
+
+
+div.tudo main{
+    background-color: white;
+    margin: 0 auto;
+    width:60%;
+    margin-top: 130px;
+    height: calc(100% - 130px);
+
+}
+
+/* div.tudo main section.pre-footer{
+    border: 2px solid rgb(200, 200, 200);
+    background-color: red;
+    position: relative;
+    top: 80%;
+    width: 100%;
+    height: 5%;
+} */
+
+div.tudo main footer{
+    width: 167.25%;
+    height: 25%;
+    background-color: #131A22;
+    position: relative;
+    top:75% ;
+    right: 34%;
+}
+div.tudo main footer button{
+    width: 100%;
+    /* height: 7.5%; */
+    height: 7.5%;
+    border: 0;
+    background-color: #2d425c;
+
+    color: white;
+    font-weight: bold;
+}
+div.tudo main footer button:hover{
+    background-color: #3b587c;
+}
+
+div.tudo main footer div.sub-footer1{
+    display: flex;
+    
+    background-color: #232F3E;
+    width:100% ;
+    height: 60%;
+    /* padding-left: 30%; */
+  
+   
+
+    
+    
+}
+div.tudo main footer div.sub-footer1 div.part1{
+
+    
+    position: relative;
+    width: 100%;
+    height: 60%;
+    /* right: 15%; */
+    border-bottom:2px solid rgba(250, 250, 250, 0.1) ;
+    padding-left: 7.5%;
+    padding-top: 0.5%;
+    
+   
+}
+
+div.tudo main footer div.sub-footer1 div.part1 h2{
+    color: white;
+    font-size: 20px;
+}
+div.tudo main footer div.sub-footer1 div.part1 a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+div.tudo main footer div.sub-footer1 div.part1 a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+    
+}
+div.tudo main footer div.sub-footer1 div.part1 div.block{
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width:2500px){
+    div.tudo header footer button.b15{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:2295px){
+    div.tudo header footer button.b14{
+        display: none;
+    }   
+}
+
+
+
+
+
+@media screen and (max-width:2170px){
+    div.tudo header footer button.b13{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1962px){
+    div.tudo header footer button.b12{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1850px){
+    div.tudo header footer button.b11{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1678px){
+    div.tudo header footer button.b10{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1506px){
+    div.tudo header footer button.b9{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1285px){
+    div.tudo header footer button.b8{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1250px){
+    div.tudo main footer div.sub-footer1 div.part1{
+        border-bottom:0 ;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:1133px){
+    div.tudo header footer button.b7{
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1014px){
+    div.tudo header footer button.b6{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px){
+    div.tudo header div.search button{
+        width: 7.5%;
+    }
+    div.tudo header div.search input[type=text]{
+        width: 400px;
+        
+      
+    }
+    div.tudo header div.search {
+        position: relative;
+    }
+}
+
+@media screen and (max-width:830px) {
+    div.tudo header div.search{
+        background-image: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:786px){
+    div.tudo header footer button.b5{
+        display: none;
+    }
+}
+@media screen and (max-width:720px){
+    html{
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:662px){
+    div.tudo header footer button.b4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:580px){
+    div.tudo main footer div.sub-footer1 div.part1{
+        right: 20px;
+  }
+}
+
+
+
+
+@media screen and (max-width:546px){
+    div.tudo header footer button.b3{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
